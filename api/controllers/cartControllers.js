@@ -15,9 +15,9 @@ const getCartByEmail = async(req, res) => {
 
 // post a cart when add-to-cart btn clicked 
 const addToCart = async(req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', 'https://vercel-3-g71l-rajs-projects-7c9d263b.vercel.app');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    //res.setHeader('Access-Control-Allow-Origin', 'https://vercel-3-g71l-rajs-projects-7c9d263b.vercel.app');
+    //res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    //res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     const {menuItemId, name, recipe, image, price, quantity,email } = req.body;
     // console.log(email)
     try {
